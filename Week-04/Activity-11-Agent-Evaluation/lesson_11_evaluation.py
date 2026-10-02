@@ -1,6 +1,6 @@
 """
 Lesson 11: Agent Evaluation & Observability
-Activity 02: Agent Evaluation (starter file)
+Activity: Agent Evaluation (starter file)
 
 Building an agent is only half the job. This file tests a Course Assistant agent
 against the scenarios in evaluation_dataset.json and reports exactly where it fails.
