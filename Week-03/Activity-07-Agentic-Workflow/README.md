@@ -1,4 +1,4 @@
-# Week 3 · Activity 01: Multi-Step Support Workflow
+# Week 3 · Lab 07: Multi-Step Support Workflow
 
 **Lesson 7: Agentic Workflows**
 
