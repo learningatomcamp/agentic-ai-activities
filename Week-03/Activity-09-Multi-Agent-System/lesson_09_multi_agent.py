@@ -1,6 +1,6 @@
 """
 Lesson 9: Multi-Agent Systems
-Activity 04: Research Team Agent (starter file)
+Activity: Research Team Agent (starter file)
 
 You will build a small research team: four specialised agents and a supervisor
 that coordinates them. They collaborate on one research question through a
