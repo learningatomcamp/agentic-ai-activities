@@ -1,4 +1,4 @@
-# Week 2 · Activity 01: Agent Knowledge Base
+# Week 2 · Lab 05: Agent Knowledge Base
 
 **Lesson 5: RAG for Agents**
 
