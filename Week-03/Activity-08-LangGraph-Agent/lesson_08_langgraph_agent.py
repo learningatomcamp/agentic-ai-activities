@@ -1,6 +1,6 @@
 """
 Lesson 8: LangChain & LangGraph
-Activity 03: LangGraph Agent (starter file)
+Activity: LangGraph Agent (starter file)
 
 You will build a Course Helpdesk agent as a LangGraph workflow. It reads each
 request, decides what kind it is, and sends it down the right path:
