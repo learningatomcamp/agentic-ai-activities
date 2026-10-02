@@ -1,4 +1,4 @@
-# Week 4 · Activity 03: Break the Agent
+# Week 4 · Lab 12: Break the Agent
 
 **Lesson 12: Agent Security & Responsible AI**
 
