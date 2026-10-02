@@ -1,4 +1,4 @@
-# Week 2 · Activity 03: LangGraph Agent
+# Week 2 · Lab 08: LangGraph Agent
 
 **Lesson 8: LangChain & LangGraph**
 
