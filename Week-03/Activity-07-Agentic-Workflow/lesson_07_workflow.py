@@ -1,6 +1,6 @@
 """
 Lesson 7: Agentic Workflows
-Activity 01: Multi-Step Support Workflow (starter file)
+Activity: Multi-Step Support Workflow (starter file)
 
 You will build a support-desk workflow for an online learning platform. A customer message goes
 through several steps: an agent reads it, the workflow routes it to the right branch, looks up
