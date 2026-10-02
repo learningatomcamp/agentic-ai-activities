@@ -1,4 +1,4 @@
-# Week 4 · Activity 02: Agent Evaluation
+# Week 4 · Lab 11: Agent Evaluation
 
 **Lesson 11: Agent Evaluation & Observability**
 
