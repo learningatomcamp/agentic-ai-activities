@@ -1,4 +1,4 @@
-# Week 2 · Activity 04: Research Team Agent
+# Week 2 · Lab 09: Research Team Agent
 
 **Lesson 9: Multi-Agent Systems**
 
