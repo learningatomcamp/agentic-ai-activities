@@ -1,4 +1,4 @@
-# Week 2 · Activity 02: Personal AI Assistant
+# Week 2 · Lab 06: Personal AI Assistant
 
 **Lesson 6: Agent Memory**
 
