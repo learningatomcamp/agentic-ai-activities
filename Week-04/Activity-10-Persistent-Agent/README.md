@@ -1,4 +1,4 @@
-# Week 4 · Activity 01: Persistent Agent
+# Week 4 · Lab 10: Persistent Agent
 
 **Lesson 10: Agent State, Memory & Persistence**
 
