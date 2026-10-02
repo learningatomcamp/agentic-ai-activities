@@ -1,6 +1,6 @@
 """
 Lesson 12: Agent Security & Responsible AI
-Activity 03: Break the Agent (starter file)
+Activity: Break the Agent (starter file)
 
 A deliberately VULNERABLE Helpdesk agent, and the security controls to fix it.
 
