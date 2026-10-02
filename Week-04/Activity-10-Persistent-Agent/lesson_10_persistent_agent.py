@@ -1,6 +1,6 @@
 """
 Lesson 10: Agent State, Memory & Persistence
-Activity 01: Persistent Agent (starter file)
+Activity: Persistent Agent (starter file)
 
 You will build a Learning Plan agent that writes a personalised study plan, one
 module at a time. Its progress is saved after every step, so if the program is
