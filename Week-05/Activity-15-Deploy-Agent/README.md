@@ -120,6 +120,7 @@ Week-05/
 
 ### Screenshot 1 — GitHub Project
 
+<img width="1362" height="404" alt="image" src="https://github.com/user-attachments/assets/b823f258-fb27-41f2-9607-379605874716" />
 
 
 ---
