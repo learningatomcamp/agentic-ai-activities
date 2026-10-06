@@ -127,7 +127,7 @@ Week-05/
 
 # Part 4 — Deploy the FastAPI Backend
 
-The FastAPI application is defined in `main.py`.
+The FastAPI application is defined in main.py.
 
 The API provides two endpoints:
 
@@ -141,13 +141,11 @@ Sends a message to the AI agent.
 
 Example request:
 
-```json
+json
 {
   "message": "What is 25 * 18?"
 }
-```
 
----
 
 ## Deploy with Railway
 
@@ -157,19 +155,19 @@ After deployment, Railway provides a public URL for your API.
 
 Example:
 
-```text
+
 https://your-project.up.railway.app
-```
+
 
 Open the URL in your browser.
 
 You should see a message similar to:
 
-```json
+`json
 {
   "message": "Tools & Function Calling Agent API is running"
 }
-```
+
 
 This confirms that your backend is online.
 
@@ -179,7 +177,8 @@ Add a screenshot showing your Railway service with the deployment status as **On
 
 **[Insert Screenshot 2 — Railway Backend Online Here]**
 
----
+<img width="1366" height="609" alt="image" src="https://github.com/user-attachments/assets/ebb680c8-f60e-4109-9ac9-ea022f6d27de" />
+
 
 # Part 5 — Test the FastAPI API
 
@@ -187,15 +186,15 @@ FastAPI automatically provides interactive API documentation through Swagger UI.
 
 Open:
 
-```text
+
 https://your-project.up.railway.app/docs
-```
+
 
 You should see the available API endpoints.
 
 Open:
 
-**POST `/chat`**
+**POST /chat
 
 Click:
 
@@ -203,11 +202,11 @@ Click:
 
 Enter:
 
-```json
+json
 {
-  "message": "What is 25 * 18?"
+  "message": "What is 50 * 98?"
 }
-```
+
 
 Click:
 
@@ -217,38 +216,38 @@ A successful response should contain the calculator result.
 
 Example:
 
-```json
+json
 {
   "response": {
     "tool_used": "calculator",
     "answer": "25 * 18 is 450."
   }
 }
-```
+
 
 ### Screenshot 3 — API Test
 
-Add a screenshot showing the `/chat` request and successful response.
+Add a screenshot showing the /chat request and successful response.
 
-**[Insert Screenshot 3 — FastAPI Swagger Test Here]**
+<img width="1319" height="566" alt="image" src="https://github.com/user-attachments/assets/48879e9a-08d1-4e82-82e6-7bdece648227" />
 
----
+<img width="1339" height="584" alt="image" src="https://github.com/user-attachments/assets/13ce6140-88bb-4475-a5f3-96f2fdaba6e4" />
 
 # Part 6 — Streamlit Frontend
 
 The Streamlit application is defined in:
 
-```text
+text
 app.py
-```
+
 
 The frontend sends the user's message to the deployed FastAPI backend.
 
 The API URL is defined in the Streamlit application:
 
-```python
+python
 API_URL = "https://your-project.up.railway.app/chat"
-```
+
 
 The user interacts with Streamlit, while the actual agent runs through the FastAPI backend.
 
@@ -256,28 +255,27 @@ The user interacts with Streamlit, while the actual agent runs through the FastA
 
 # Part 7 — Deploy Streamlit
 
-Deploy the `app.py` application using **Streamlit Community Cloud**.
+Deploy the app.py application using **Streamlit Community Cloud**.
 
 When creating the Streamlit application, select your GitHub repository and use:
 
-```text
+text
 Branch:
 main
-```
+
 
 For the main file path, use:
 
-```text
 Week-05/Activity-15-Deploy-Agent/app.py
-```
+
 
 After deployment, Streamlit provides a public application URL.
 
 Example:
 
-```text
+
 https://your-agent.streamlit.app
-```
+
 
 ---
 
@@ -287,13 +285,12 @@ Open your Streamlit application.
 
 Enter a message such as:
 
-```text
 What is 25 * 18?
-```
+
 
 The request will travel through the deployed system:
 
-```text
+text
 User
   ↓
 Streamlit
@@ -305,25 +302,26 @@ AI Agent
 Gemini
   ↓
 Calculator Tool
-```
+
 
 You can also test:
 
-```text
+
 Search the web for information about LangGraph.
-```
+
 
 or:
 
-```text
+
 What is the current weather in Islamabad?
-```
+
 
 ### Screenshot 4 — Deployed Streamlit App
 
-Add a screenshot showing the deployed Streamlit application with a successful agent response.
+<img width="1353" height="553" alt="image" src="https://github.com/user-attachments/assets/4aae4f85-f6fd-4d00-b926-7b664121489b" />
 
-**[Insert Screenshot 4 — Streamlit App Here]**
+
+
 
 ---
 
@@ -331,7 +329,7 @@ Add a screenshot showing the deployed Streamlit application with a successful ag
 
 Your final deployed application looks like this:
 
-```text
+
                    User
                     │
                     ▼
@@ -349,9 +347,7 @@ Your final deployed application looks like this:
           ┌─────────┼─────────┐
           ▼         ▼         ▼
       Calculator  Web Search  Weather
-```
 
----
 
 # Testing Checklist
 
@@ -374,7 +370,7 @@ In this activity, you learned that deploying an AI agent involves more than just
 
 A production-style setup separates the application into different components:
 
-```text
+
 Frontend
    ↓
 API
@@ -384,7 +380,7 @@ Agent
 Model
    ↓
 Tools
-```
+
 
 You also learned the importance of:
 
